@@ -1,0 +1,29 @@
+.hero {
+    padding-bottom: 136px;
+    &__container {
+        max-width: 1280px;
+        padding: 117px 85px 116px;
+        background-image: url("../images/Bitmap.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+    }
+    &__left {
+        width: 493px;
+    }
+    &__title {
+        margin-bottom: 32px;
+        color: $main-color;
+        font-size: 72px;
+        line-height: 72px;
+    }
+    &__desc {
+        margin-bottom: 56px;
+        width: 444px;
+        color: $main-color;
+        font-family: 'Barlow';
+        line-height: 26px;
+        opacity: 0.8;
+    }
+}

@@ -1,0 +1,51 @@
+.collection {
+    padding-bottom: 200px;
+    &__container {
+        max-width: 1151px;
+    }
+    &__title {
+        padding: 0 18px;
+        display: flex;
+        align-items: end;
+        height: 160px;
+        text-align: center;
+        font-size: 150px;
+        line-height: 72px;
+        color: $link-color;
+        opacity: 0.5;
+    }
+    &__list {
+        display: flex;
+        margin-top: -32px;
+    }
+    &__item {
+        width: 256px;
+        text-align: center;
+        z-index: 1;
+    }
+    &__item:first-child {
+        width: 255px;
+    }
+    &__item + &__item {
+        margin-left: 30px;
+    }
+    &__img {
+        width: 256px;
+        height: 193px;
+        margin-bottom: 72px;
+    }
+    &__item:first-child &__img {
+        width: 255px;
+    }
+    &__item-title {
+        margin-bottom: 24px;
+        color: $text-color;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    &__desc {
+        color: $text-color;
+        font-family: 'Barlow';
+        line-height: 26px;
+    }
+}
