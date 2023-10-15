@@ -31,9 +31,6 @@ h1, h2, h3, h4, p {
 a {
     text-decoration: none;
 }
-button {
-    border: none;
-}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -51,6 +48,7 @@ button {
 }
 .btn {
     padding: 15px 31px 16px;
+    border: none;
     border-radius: 6px;
     background-color: $btn-color;
     color: $main-color;
